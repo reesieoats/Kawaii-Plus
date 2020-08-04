@@ -33,3 +33,7 @@ li {
   border: 1px solid #dadde1;
   border-radius: 5px;
 }
+
+.overview {
+  margin-bottom: 20px;
+}
