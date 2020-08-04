@@ -1,8 +1,12 @@
 function formatDate(timestamp) {
   let date = new Date(timestamp);
+
   let hours = date.getHours();
-  let minutes = date.minutes();
+
+  let minutes = date.getminutes();
+
   let day = date.getDay();
+
   return `${day} ${hours} ${minutes}`;
 }
 
