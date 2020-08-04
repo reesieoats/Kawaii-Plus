@@ -1,5 +1,4 @@
 function displayTemperature(response) {
-  console.log(response.data.main.temp);
   let temperatureElement = document.querySelector("#temperature");
   let cityElement = document.querySelector("#city");
   temperatureElement.innerHTML = Math.round(response.data.main.temp);
