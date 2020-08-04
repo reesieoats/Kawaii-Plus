@@ -3,7 +3,7 @@ function formatDate(timestamp) {
 
   let hours = date.getHours();
 
-  let minutes = date.getminutes();
+  let minutes = date.getMinutes();
 
   let day = date.getDay();
 
