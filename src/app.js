@@ -62,5 +62,5 @@ let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=London&appid=${a
 
 axios.get(apiUrl).then(displayTemperature);
 
-let form = document.querySelector("search-form");
+let form = document.querySelector("#search-form");
 form.addEventListener("submit", search);
