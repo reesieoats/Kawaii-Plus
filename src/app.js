@@ -53,7 +53,7 @@ function displayTemperature(response) {
 function search(event) {
   event.preventDefault();
   let cityInputElement = document.querySelector("#city-input");
-  console.log(cityInputElement);
+  console.log(cityInputElement.value);
 }
 
 let apiKey = "595adbf6a3ae27cee86c95730ea72e7a";
