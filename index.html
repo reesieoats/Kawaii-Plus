@@ -1,69 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kawaii Plus</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-      crossorigin="anonymous"
-    />
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <link rel="stylesheet" href="src/style.css" />
-  </head>
-  <body>
-    <div class="container">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+  <link rel="stylesheet" href="src/style.css" />
+  <title>Weather App</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="weather-app-wrapper">
       <div class="weather-app">
-        <div class="weather-app-wrapper">
-          <form id="search-form" class="mb-3">
-            <div class="row">
-              <div class="col-9">
-            <input type="search" placeholder="Type a city..." class="form-control" id="city-input" autocomplete="off">
-          </div>
-          <div class="col-3">
-            <input type="submit" value="search" class="btn btn-primary w-100">
+        <form id="search-form" class="mb-3">
+          <div class="row">
+            <div class="col-9">
+              <input type="search" placeholder="Type a city..." class="form-control" id="city-input"
+                autocomplete="off" />
+            </div>
+            <div class="col-3">
+              <input type="submit" value="search" class="btn btn-primary w-100" />
             </div>
           </div>
-          </form>
-          <div class="overview">
-            <h1 id="city"></h1>
-            <ul>
-            <li>Last Updated: <span id="date"></span></li>
-              <li id="description"></li>
-            </ul>
-          </div>
-          <div class="row">
-            <div class="col-6">
-              <div class="clearfix weather-temperature">
-                <img src="images/rain.jpg" width="100" class="float-left" id="icon"/>
-                <div class="float-left">
-                  <strong id="temperature"></strong><span class="units">°C | <a href="#" id="conditions">°F</a></span>
-                </div>
+        </form>
+        <div class="overview">
+          <h1 id="city"></h1>
+          <ul>
+            <li>Last updated at <span id="date"></span></li>
+            <li id="description"></li>
+          </ul>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <div class="clearfix weather-temperature">
+              <img src="https://ssl.gstatic.com/onebox/weather/64/sunny.png" class="float-left" id="icon" />
+              <div class="float-left">
+                <strong id="temperature"></strong><span class="units"><a href="#" id="celsius-link"
+                    class="active">°C</a> |
+                  <a href="#" id="condition-link">°F</a></span>
               </div>
             </div>
-            <div class="col-6">
-              <ul>
-                <li>
-                  Humidity: <span id="humidity"></span>%
-                </li>
-                <li>
-                  Wind: <span id="wind"></span> km/h
-                </li>
-              </ul>
-            </div>
+          </div>
+          <div class="col-6">
+            <ul>
+              <li>Humidity: <span id="humidity"></span>%</li>
+              <li>Wind: <span id="wind"></span> km/h</li>
+            </ul>
           </div>
         </div>
-    </div>
-        <small>
-          <a href="https://github.com/reesieoats/Kawaii-Plus" target="_blank"
-            >Open-Source Code</a
-          >
-          by Larisa Ortiz
-        </small>
+        <div class="row weather-forcast" id="forecast">
+        </div>
       </div>
+      <small>
+        <a href="https://dreamy-meninsky-c9c368.netlify.app/" target="_blank">open-source code</a>
+        by larisa ortiz
+      </small>
     </div>
     <script src="src/app.js"></script>
-  </body>
+</body>
+
 </html>
