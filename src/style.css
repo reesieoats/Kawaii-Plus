@@ -1,10 +1,11 @@
 body {
   font-family: Arial, sans-serif;
+  background-image: url("https://secure.img1-fg.wfcdn.com/im/50299399/resize-h800%5Ecompr-r85/5896/58965317/Agnon+Removable+Tropical+Palm+Leaves+3.92%2527+L+x+75%2522+W+Peel+and+Stick+Wallpaper+Roll.jpg");
 }
 
 h1 {
-  color: #878787;
-  font-size: 24px;
+  color: #8fbbaa;
+  font-size: 30px;
   font-weight: 100;
   line-height: 28px;
   margin-bottom: 0;
@@ -19,8 +20,8 @@ li {
   list-style: none;
   margin: 0;
   padding: 0;
-  color: #878787;
-  font-size: 16px;
+  color: #f1f2f2;
+  font-size: 18px;
   font-weight: 100;
   line-height: 19px;
 }
@@ -38,8 +39,9 @@ li:first-letter {
   max-width: 600px;
   margin: 30px auto;
   padding: 20px;
-  border: 1px solid #dadde1;
-  border-radius: 5px;
+  border: 1px solid #f1f2f2;
+  border-radius: 50px;
+  background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
 }
 
 .overview {
@@ -53,7 +55,7 @@ li:first-letter {
 }
 
 .weather-temperature strong {
-  color: rgb(33, 33, 33);
+  color: #8fbbaa;
   font-size: 64px;
   font-weight: 400;
   line-height: 1;
@@ -66,7 +68,7 @@ li:first-letter {
 }
 
 .weather-temperature .active {
-  color: rgb(33, 33, 33);
+  color: #8fbbaa;
   cursor: default;
 }
 
@@ -79,7 +81,7 @@ li:first-letter {
 }
 
 .weather-forcast h3 {
-  color: rgb(186, 186, 186);
+  color: #8fbbaa;
   font-size: 14px;
   font-weight: 400;
   text-align: center;
@@ -97,7 +99,7 @@ li:first-letter {
 
 .weather-forcast-temperature {
   text-align: center;
-  color: rgb(135, 135, 135);
+  color: #f1f2f2;
   font-size: 13px;
   font-weight: 400;
   height: 15px;
