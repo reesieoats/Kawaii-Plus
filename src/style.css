@@ -1,11 +1,11 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background-image: url("https://secure.img1-fg.wfcdn.com/im/50299399/resize-h800%5Ecompr-r85/5896/58965317/Agnon+Removable+Tropical+Palm+Leaves+3.92%2527+L+x+75%2522+W+Peel+and+Stick+Wallpaper+Roll.jpg");
 }
 
-
 h1 {
-  color: #8fbbaa;
+  color: #224d39;
   font-size: 30px;
   font-weight: 100;
   line-height: 28px;
@@ -13,11 +13,11 @@ h1 {
 }
 
 a {
-  color: #f1f2f2;
+  color: #8fbbaa;
 }
 
 small {
-  color: #f1f2f2;
+  color: #8fbbaa;
 }
 
 ul {
@@ -29,7 +29,7 @@ li {
   list-style: none;
   margin: 0;
   padding: 0;
-  color: #f1f2f2;
+  color: #8fbbaa;
   font-size: 18px;
   font-weight: 100;
   line-height: 19px;
@@ -46,14 +46,14 @@ li:first-letter {
 
 .notification {
   font-size: 12px;
-  color: #8fbbaa;
+  color: #224d39;
 }
 
 .weather-app {
   max-width: 600px;
   margin: 30px auto;
   padding: 20px;
-  border: 1px solid #f1f2f2;
+  border: 1px solid #8fbbaa;
   border-radius: 50px;
   background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
 }
@@ -69,7 +69,7 @@ li:first-letter {
 }
 
 .weather-temperature strong {
-  color: #8fbbaa;
+  color: #224d39;
   font-size: 64px;
   font-weight: 400;
   line-height: 1;
@@ -77,12 +77,12 @@ li:first-letter {
 
 .weather-temperature .units {
   position: relative;
-  font-size: 16px;
+  font-size: 15px;
   top: -34px;
 }
 
 .weather-temperature .active {
-  color: #8fbbaa;
+  color: #224d39;
   cursor: default;
 }
 
@@ -91,12 +91,12 @@ li:first-letter {
 }
 
 .weather-forcast {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .weather-forcast h3 {
-  color: #8fbbaa;
-  font-size: 14px;
+  color: #224d39;
+  font-size: 15px;
   font-weight: 400;
   text-align: center;
   height: 25px;
@@ -113,8 +113,8 @@ li:first-letter {
 
 .weather-forcast-temperature {
   text-align: center;
-  color: #f1f2f2;
-  font-size: 13px;
+  color: #8fbbaa;
+  font-size: 15px;
   font-weight: 400;
   height: 15px;
   line-height: 15px;

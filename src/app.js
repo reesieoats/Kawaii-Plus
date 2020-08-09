@@ -19,7 +19,7 @@ function formatHours(timestamp) {
   let hours = date.getHours();
 
   if (hours < 10) {
-    hours = `0${hours}`;
+    hours = `${hours}`;
   }
 
   let minutes = date.getMinutes();
@@ -133,3 +133,6 @@ function follow(event) {
 
 let followLink = document.querySelector("#follow");
 followLink.addEventListener("click", follow);
+
+city = city.toLowerCase();
+city = city.trim();
