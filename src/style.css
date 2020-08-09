@@ -3,12 +3,24 @@ body {
   background-image: url("https://secure.img1-fg.wfcdn.com/im/50299399/resize-h800%5Ecompr-r85/5896/58965317/Agnon+Removable+Tropical+Palm+Leaves+3.92%2527+L+x+75%2522+W+Peel+and+Stick+Wallpaper+Roll.jpg");
 }
 
+small {
+  text-align: center;
+}
+
 h1 {
   color: #8fbbaa;
   font-size: 30px;
   font-weight: 100;
   line-height: 28px;
   margin-bottom: 0;
+}
+
+a {
+  color: #f1f2f2;
+}
+
+small {
+  color: #f1f2f2;
 }
 
 ul {
@@ -33,6 +45,11 @@ li:first-letter {
 .weather-app-wrapper {
   max-width: 600px;
   margin: 30px auto;
+}
+
+.notification {
+  font-size: 12px;
+  color: #8fbbaa;
 }
 
 .weather-app {

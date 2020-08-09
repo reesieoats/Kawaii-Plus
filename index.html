@@ -9,8 +9,10 @@
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
+
+
   <link rel="stylesheet" href="src/style.css" />
-  <title>Weather App</title>
+  <title>Kawaii Plus</title>
 </head>
 
 <body>
@@ -20,19 +22,20 @@
         <form id="search-form" class="mb-3">
           <div class="row">
             <div class="col-9">
-              <input type="search" placeholder="Type a city..." class="form-control" id="city-input"
+              <input type="search" placeholder="What city can we help you find?" class="form-control" id="city-input"
                 autocomplete="off" />
+                <a href="#" id="follow" class="notification">☞ Sign Up For Weather Alerts</a>
             </div>
             <div class="col-3">
             
-              <input type="submit" value="search" class="btn btn-light w-100" />
+              <input type="submit" value="✈︎" class="btn btn-light w-100" />
             </div>
           </div>
         </form>
         <div class="overview">
           <h1 id="city"></h1>
           <ul>
-            <li>Last updated at <span id="date"></span></li>
+            <li>Last updated on <span id="date"></span></li>
             <li id="description"></li>
           </ul>
         </div>
@@ -58,8 +61,8 @@
         </div>
       </div>
       <small>
-        <a href="https://elegant-leavitt-a5e482.netlify.app/" target="_blank">open-source code</a>
-        by larisa ortiz
+        <a href="https://elegant-leavitt-a5e482.netlify.app/" target="_blank">Open-Source Code</a>
+        by Larisa Ortiz
       </small>
     </div>
     <script src="src/app.js"></script>

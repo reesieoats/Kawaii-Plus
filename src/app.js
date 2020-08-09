@@ -123,3 +123,13 @@ let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", displayCelsiusTemperature);
 
 search("New York");
+
+function follow(event) {
+  event.preventDefault();
+  let link = document.querySelector("#follow");
+  prompt("What is your email?");
+  alert("🌿 Welcome Aboard!");
+}
+
+let followLink = document.querySelector("#follow");
+followLink.addEventListener("click", follow);
