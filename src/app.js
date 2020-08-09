@@ -122,7 +122,7 @@ conditionLink.addEventListener("click", displayConditionTemperature);
 let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", displayCelsiusTemperature);
 
-search("New York");
+search("Cleveland");
 
 function follow(event) {
   event.preventDefault();
